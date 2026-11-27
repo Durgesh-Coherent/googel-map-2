@@ -1,0 +1,24 @@
+browser: chromium
+headless: false
+slow_mo_ms: 0
+locale: en-US
+timezone_id: Asia/Kolkata
+maps_base_url: https://www.google.com/maps
+page_timeout_ms: 60000
+
+max_results: 15
+max_retries: 2
+
+delay_keyword_min: 1
+delay_keyword_max: 2
+delay_company_min: 0.8
+delay_company_max: 2
+captcha_recheck_delay_seconds: 5
+
+stop_on_block: false
+export_after_each_keyword: true
+geo_filter_enabled: true
+max_scroll_results: 40
+scrape_description: false
+early_geo_filter: true
+search_zoom: 10
